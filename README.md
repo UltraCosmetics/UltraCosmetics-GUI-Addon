@@ -20,11 +20,11 @@ Thanks to @dennishzg for creating the resource pack!
 
 ### Main menu
 
-![Main menu](.github/readme-assets/preview-bg_main.png)
+![Main menu](.github/ASSETS/preview-bg_main.png)
 
 ### Buy menu (keys, cosmetics etc.)
 
-![Buy menu](.github/readme-assets/preview-bg_buy.png)
+![Buy menu](.github/ASSETS/preview-bg_buy.png)
 
 ## 🛠️ How to use
 
@@ -114,4 +114,4 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 [discord-invite]: https://discord.gg/PgSXZT37JV
 [spigotmc-link]: https://www.spigotmc.org/resources/117279
 [github-releases-link]: https://github.com/UltraCosmetics/UltraCosmetics-gui-addon/releases
-[p-key]: .github/readme-assets/preview-key.png
+[p-key]: .github/ASSETS/preview-key.png
