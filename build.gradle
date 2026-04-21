@@ -36,7 +36,7 @@ dependencies {
     // https://hub.spigotmc.org/stash/projects/SPIGOT/repos/spigot/browse
     compileOnly 'org.spigotmc:spigot-api:1.21.11-R0.2-SNAPSHOT'
     // https://github.com/UltraCosmetics/UltraCosmetics
-    compileOnly ('com.github.UltraCosmetics:UltraCosmetics:3.14-RELEASE') {
+    compileOnly ('com.github.UltraCosmetics:UltraCosmetics:3.15-RELEASE') {
         attributes {
             // Depend on the version with dependencies shaded so we don't need to shade them separately
             attribute(Bundling.BUNDLING_ATTRIBUTE, getObjects().named(Bundling, Bundling.SHADOWED))
