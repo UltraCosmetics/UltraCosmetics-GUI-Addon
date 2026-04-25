@@ -3,6 +3,7 @@ package me.datatags.ultracosmeticsguiaddon;
 import be.isach.ultracosmetics.UCAddon;
 import be.isach.ultracosmetics.UltraCosmetics;
 import be.isach.ultracosmetics.menu.Menus;
+import be.isach.ultracosmetics.menu.buttons.KeysButton;
 import me.datatags.ultracosmeticsguiaddon.menus.TexturedMainMenu;
 import me.datatags.ultracosmeticsguiaddon.menus.TexturedMenuPurchase;
 import org.bukkit.Bukkit;
@@ -35,6 +36,6 @@ public class GUIAddon implements UCAddon {
         ItemMeta meta = treasureKeyBaseItem.getItemMeta();
         meta.setItemModel(NamespacedKey.fromString("ucgui:uc_items/key"));
         treasureKeyBaseItem.setItemMeta(meta);
-        menus.setTreasureKeyBaseItem(treasureKeyBaseItem);
+        KeysButton.setKeyItem(treasureKeyBaseItem);
     }
 }
