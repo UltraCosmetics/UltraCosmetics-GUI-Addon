@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class UltraCosmeticsGUIAddon extends JavaPlugin {
     public static final int MIN_MAJOR_VERSION = 3;
-    public static final int MIN_MINOR_VERSION = 6;
+    public static final int MIN_MINOR_VERSION = 16;
     @Override
     public void onEnable() {
         UltraCosmetics ultraCosmetics = UltraCosmeticsData.get().getPlugin();
