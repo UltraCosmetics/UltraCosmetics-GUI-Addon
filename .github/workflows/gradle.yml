@@ -53,8 +53,13 @@ jobs:
       - name: Make Gradlew executable
         run: chmod +x ./gradlew
 
+      # https://github.com/nick-fields/retry
       - name: Build project
-        run: ./gradlew shadowJar --no-daemon
+        uses: nick-fields/retry@v4.0.0
+        with:
+          max-attempts: 2
+          timeout-minutes: 1
+          command: ./gradlew shadowJar --no-daemon
 
       # https://github.com/actions/upload-artifact
       - name: Upload build artifact
